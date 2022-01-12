@@ -91,8 +91,10 @@ console.log(calculator(121, "sqrt"))
 
 // 3. написать пример для запуска f(5)(10, 3)
 
-function five(a, b){
-    return a ** b;
+function fun (c) {
+   return function fun2 (b, c){
+        return b * c;
+    }
 }
-console.log(five(10, 3));
+
 
